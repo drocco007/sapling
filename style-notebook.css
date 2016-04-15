@@ -34,8 +34,9 @@ body.rise-enabled
 .reveal .rendered_html h5,
 .reveal .rendered_html h6
 {
-    text-shadow: none;
     font-weight: normal;
+    text-shadow: none;
+    text-transform: none;
 }
 
 .reveal .rendered_html h1
@@ -97,6 +98,7 @@ body.rise-enabled
     background: none;
     border: none;
     box-shadow: none;
+    text-align: center;
 }
 
 .reveal #slide-0-0 .rendered_html
@@ -104,6 +106,12 @@ body.rise-enabled
     position: absolute;
     top: 175px;
     left: 100px;
+}
+
+.reveal #slide-0-0 .rendered_html,
+.reveal #slide-5-0 .rendered_html
+{
+    background-color: rgba(224, 224, 224, .7);
 }
 
 
